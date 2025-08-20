@@ -929,4 +929,6 @@ elif choice == "Settings / About":
 
 **Deploy on Render**
 - Build Command: *(leave blank or default)*  
-- Start Command:
+- Start Command: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    """)
+  st.info("Note: Heuristics are conservative by design and intended for demonstration/education, not a replacement for full malware analysis.")
